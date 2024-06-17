@@ -1,0 +1,50 @@
+{
+    "id": "KnightsOfConviction",
+    "title": "Knights of conviction",
+    "description": "A system about Knights of conviction.",
+    "authors": [
+    {
+      "name": "Vasilii",
+	  "discord": "mrFirst"
+    }
+  ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11",
+        "maximum": "11"
+    },
+    "scripts": [],
+    "esmodules": [
+    "module/KnightsOfConviction.mjs"
+  ],
+  "styles": [
+    "styles/system-styles-1.css",
+    "styles/system-styles-2.css"
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "My Monsters",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "My Items",
+      "type": "Item"
+    }
+  ],
+"languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "initiative": "1d12",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power"
+}

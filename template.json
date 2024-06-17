@@ -1,0 +1,105 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "creature",
+            "loot"
+        ],
+        "templates": {
+            "baseActor": {
+                "hp": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 12
+                }
+            }
+        },
+        "character": {
+            "templates": [
+                "baseActor"
+            ],
+            "abilities": {
+                "con": {
+                    "value": 1
+                },
+                "dex": {
+                    "value": 1
+                },
+                "int": {
+                    "value": 1
+                },
+                "wil": {
+                    "value": 1
+                },
+                "per": {
+                    "value": 1
+                }
+            },
+            "pointConviction": {
+                "value": 0,
+                "min": 0
+            }
+        },
+        "creature": {},
+        "loot": {}
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "armor",
+            "order",
+            "skill",
+            "feature",
+            "knowledge",
+            "effect",
+            "item"
+        ],
+        "templates": {
+            "base": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "base"
+            ]
+        },
+        "armor": {
+            "templates": [
+                "base"
+            ]
+        },
+        "order": {
+            "templates": [
+                "base"
+            ]
+        },
+        "skill": {
+            "templates": [
+                "base"
+            ]
+        },
+        "feature": {
+            "templates": [
+                "base"
+            ]
+        },
+        "knowledge": {
+            "templates": [
+                "base"
+            ]
+        },
+        "effect": {
+            "templates": [
+                "base"
+            ]
+        },
+        "item": {
+            "templates": [
+                "base"
+            ],
+            "quantity": 1,
+            "weight": 0
+        }
+    }
+}

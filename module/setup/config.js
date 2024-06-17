@@ -1,0 +1,1 @@
+export const KNIGHTS_OF_CONVICTION = {};
