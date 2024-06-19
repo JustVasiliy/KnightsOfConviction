@@ -34,13 +34,6 @@
       "type": "Item"
     }
   ],
-"languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    }
-  ],
   "socket": false,
   "initiative": "1d12",
   "gridDistance": 1,
